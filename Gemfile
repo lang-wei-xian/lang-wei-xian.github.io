@@ -18,7 +18,7 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
     gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
-    gem 'jekyll-toc'
+    gem 'jekyll-toc', "~> 0.12.1"  # 锁定兼容版本
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
 
